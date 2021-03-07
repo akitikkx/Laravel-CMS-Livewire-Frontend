@@ -9,6 +9,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "livewire/livewire": "^2.0"
     }
