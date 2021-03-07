@@ -1,0 +1,15 @@
+{
+    "name": "akitikkx/frontend",
+    "description": "The frontend interface to be used for all frontend clients for AECMS",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmed Tikiwa",
+            "email": "ahmed@aewebmasters.co.za"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "livewire/livewire": "^2.0"
+    }
+}
