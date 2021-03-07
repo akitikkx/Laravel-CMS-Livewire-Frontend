@@ -1,6 +1,6 @@
 <?php
 
-namespace Akitikkx\Frontend;
+namespace akitikkx\frontend;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class FrontendServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Akitikkx\Frontend\Frontend');
+        $this->app->make('akitikkx\frontend\Frontend');
     }
 
     /**
