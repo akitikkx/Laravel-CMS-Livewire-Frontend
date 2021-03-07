@@ -12,5 +12,12 @@
     "prefer-stable": true,
     "require": {
         "livewire/livewire": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akitikkx\\Frontend\\FrontendServiceProvider"
+            ]
+        }
     }
 }
