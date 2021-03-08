@@ -1,6 +1,6 @@
 <?php
 
-namespace Akitikkx\Frontend;
+namespace akitikkx\frontend;
 
 use Illuminate\Support\ServiceProvider;
 

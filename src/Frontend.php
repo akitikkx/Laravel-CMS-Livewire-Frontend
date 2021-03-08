@@ -1,6 +1,6 @@
 <?php
 
-namespace Akitikkx\Frontend;
+namespace akitikkx\frontend;
 
 use Livewire\Component;
 use Illuminate\Support\Facades\DB;

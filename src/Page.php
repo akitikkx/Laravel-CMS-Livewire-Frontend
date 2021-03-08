@@ -1,6 +1,6 @@
 <?php
 
-namespace Akitikkx\Frontend;
+namespace akitikkx\frontend;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
