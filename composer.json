@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "akitikkx\\frontend\\FrontendServiceProvider"
+                "Akitikkx\\Frontend\\FrontendServiceProvider"
             ]
         }
     }
