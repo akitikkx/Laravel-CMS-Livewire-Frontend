@@ -1,4 +1,4 @@
 <?php
 
-Route::get('/{urlslug}', akitikkx\frontend\Frontend::class);
-Route::get('/', akitikkx\frontend\Frontend::class);
+Route::get('/{urlslug}', Akitikkx\Frontend\Frontend::class);
+Route::get('/', Akitikkx\Frontend\Frontend::class);

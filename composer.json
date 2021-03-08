@@ -8,15 +8,20 @@
             "email": "ahmed@aewebmasters.co.za"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "livewire/livewire": "^2.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Akitikkx\\Frontend\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "akitikkx\\frontend\\FrontendServiceProvider"
+                "Akitikkx\\Frontend\\FrontendServiceProvider"
             ]
         }
     }
