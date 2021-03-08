@@ -86,7 +86,7 @@ class Frontend extends Component
      */
     public function render()
     {
-        return view('akitikkx.frontend.frontend', [
+        return view('livewire.frontend', [
             'sideBarLinks' => $this->sideBarLinks(),
             'topNavLinks' => $this->topNavLinks(),
         ]);
