@@ -28,8 +28,9 @@ class FrontendServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes.php');
         $this->loadViewsFrom(__DIR__ . '/views', 'frontend');
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
-        $this->publishes([
-            __DIR__ . '/views' => base_path('resources/views/layouts')
-        ]);
+        $this->publishes([__DIR__ . '/views' => base_path('resources/views/layouts')]);
+        $this->publishes([__DIR__ . '/views/livewire' => base_path('resources/views/livewire')]);
+        $this->publishes([__DIR__ . '/Frontend.php' => base_path('app/Http/Livewire/Frontend.php')]);
+
     }
 }
