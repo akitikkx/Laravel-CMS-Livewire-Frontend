@@ -15,7 +15,7 @@ class FrontendServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('akitikkx\frontend\Frontend');
+        $this->app->make('Akitikkx\Frontend\Frontend');
     }
 
     /**
