@@ -11,6 +11,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
+        "laravel/jetstream": "^2.2",
         "livewire/livewire": "^2.0"
     },
     "autoload": {
