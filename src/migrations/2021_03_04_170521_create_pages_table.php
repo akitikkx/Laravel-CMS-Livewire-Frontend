@@ -18,8 +18,8 @@ class CreatePagesTable extends Migration
             $table->string('title')->nullable();
             $table->string('slug')->nullable();
             $table->longText('content')->nullable();
-            $table->boolean('is_default_home')->nullable()->after('id');
-            $table->boolean('is_default_not_found')->nullable()->after('is_default_home');
+            $table->boolean('is_default_home')->nullable();
+            $table->boolean('is_default_not_found')->nullable();
             $table->timestamps();
         });
     }
