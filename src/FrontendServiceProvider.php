@@ -30,10 +30,8 @@ class FrontendServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
         $this->publishes([__DIR__ . '/views/frontend.blade.php' => base_path('resources/views/layouts/frontend.blade.php')]);
         $this->publishes([__DIR__ . '/views/app.blade.php' => base_path('resources/views/layouts/app.blade.php')]);
-        $this->publishes([__DIR__ . '/views/navigation-menu.blade.php' => base_path('resources/views/navigation-menu.blade.php')]);
         $this->publishes([__DIR__ . '/views/livewire' => base_path('resources/views/livewire')]);
         $this->publishes([__DIR__ . '/Frontend.php' => base_path('app/Http/Livewire/Frontend.php')]);
-        $this->publishes([__DIR__ . '/NavigationMenus.php' => base_path('app/Http/Livewire/NavigationMenus.php')]);
 
     }
 }
