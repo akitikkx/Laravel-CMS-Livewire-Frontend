@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateNavigationMenusTable extends Migration
+class CreatePageSectionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,15 @@ class CreateNavigationMenusTable extends Migration
      */
     public function up()
     {
-        if (Schema::hasTable('navigation_menus')) {
+        if (Schema::hasTable('page_sections')) {
             return;
         }
 
-        Schema::create('navigation_menus', function (Blueprint $table) {
+        Schema::create('page_sections', function (Blueprint $table) {
             $table->id();
-            $table->integer('sequence');
-            $table->enum('type', ['SidebarNav', 'TopNav']);
-            $table->string('label');
-            $table->string('slug');
+            $table->string('title')->nullable();
+            $table->string('slug')->nullable();
+            $table->longText('content')->nullable();
             $table->timestamps();
         });
     }
@@ -34,6 +33,6 @@ class CreateNavigationMenusTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('navigation_menus');
+        Schema::dropIfExists('page_sections');
     }
 }

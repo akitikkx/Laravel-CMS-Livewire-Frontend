@@ -32,6 +32,7 @@ class FrontendServiceProvider extends ServiceProvider
         $this->publishes([__DIR__ . '/views/app.blade.php' => base_path('resources/views/layouts/app.blade.php')]);
         $this->publishes([__DIR__ . '/views/livewire' => base_path('resources/views/livewire')]);
         $this->publishes([__DIR__ . '/Frontend.php' => base_path('app/Http/Livewire/Frontend.php')]);
+        $this->publishes([__DIR__ . '/FrontendSection.php' => base_path('app/Http/Livewire/FrontendSection.php')]);
 
     }
 }
