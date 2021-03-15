@@ -38,7 +38,8 @@ as well as the following classes:
 ```
 
 NB: Note that the namespace needs to be changed to match the project's
-namespace, such as `App\Http\Frontend`
+namespace, such as `App\Http\Frontend` and to add `use App\Models\PageSection;`
+to `App\Http\Livewire\PageSection`
 
 ### Run the migrations
 
