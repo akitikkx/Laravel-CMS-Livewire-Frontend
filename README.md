@@ -33,6 +33,8 @@ as well as the following classes:
 ```
 - app/Http/Livewire/Frontend
 - app/Http/Livewire/FrontendSection
+- app/Models/Page
+- app/Models/PageSection
 ```
 
 NB: Note that the namespace needs to be changed to match the project's
