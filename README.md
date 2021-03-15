@@ -97,7 +97,10 @@ To call the component and have it added to a section of
 the HTML, simply add the following:
 
 ```
-@livewire('frontend-section', ['urlslug' => 'this-is-the-fancy-title'])
+@livewire('frontend-section', ['urlslug' => 'this-is-the-fancy-title', 'title_class' => 'my-4 text-5xl
+            font-bold leading-tight', 'content_class' => 'leading-normal text-2xl mb-8'])
 ```
-where `this-is-the-fancy-title` is the slug from the page section
-you want to display from the `page_sections` table.
+where `this-is-the-fancy-title` is the `slug` from the page section
+you want to display from the `page_sections` table, the css class for the
+`title` is defined with `title_class` and the css class for the body
+of the `content` is defined with `content_class`.
