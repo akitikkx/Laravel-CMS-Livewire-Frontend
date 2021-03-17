@@ -5,7 +5,7 @@ namespace Akitikkx\Frontend;
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 
-class FrontendTopNavigationMobile extends FrontendTopNavigation {
+class FrontendTopNavigationWeb extends FrontendTopNavigation {
 
     /**
      * The livewire render function.
